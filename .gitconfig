@@ -1,0 +1,23 @@
+[user]
+	name = EdLeafe
+	email = ed@leafe.com
+[core]
+	excludesfile = /home/ed/.gitignore_global
+[color]
+    branch = auto
+    diff = auto
+    status = auto
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+	ci = commit
+	st = status
+	co = checkout
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+    ls = log --pretty=format:"%C(yellow)%h\\ %ad%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate --date=relative
+	list = ls-files
+    diffn = diff --name-only
