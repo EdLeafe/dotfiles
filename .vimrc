@@ -34,19 +34,22 @@ set history=1000 " keep 1000 lines of history
 set ruler " show the cursor position
 set incsearch
 set hlsearch
+set cc=80
 hi ColorColumn ctermbg=blue
 
 map <F2> :w<CR>
 map! <F2> <Esc>:w<CR><i>
 map <silent> <F4> :nohlsearch<CR>
-map <F5> :%s/\s\+$//g<CR>
+"map <F5> :%s/\s\+$//g<CR>
+map <F5> <C-w>gf
 map <F6> :tabnew<CR>:e 
+map <F7> :set invrelativenumber<CR>:e 
 vmap <F3> :'<,'>s/^/#/g<CR>
 
 set showtabline=2
 map <C-z> :tabprevious<cr>
 map <C-x> :tabnext<cr>
-map <C-w> :tabclose<cr>
+map <C-q> :tabclose<cr>
 noremap <Space> i<Space><Esc>r
 
 "augroup vimrc_autocmds
