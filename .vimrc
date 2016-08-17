@@ -6,10 +6,12 @@ syntax enable
 set background=dark
 color desert
 set tabpagemax=30
-"nnoremap <F3> :set invpaste paste?<CR>
-"set pastetoggle=<F3>
+nnoremap <F3> :set invpaste paste?<CR>
+set pastetoggle=<F3>
 set showmode
+set completeopt=menuone
 
+#execute pathogen#infect()
 
 filetype on            " enables filetype detection
 filetype plugin on     " enables filetype specific plugins
@@ -23,7 +25,7 @@ set wildmenu
 set wildmode=full
 
 " Backspace behavior - default to only what was typed
-set backspace=0
+set backspace=indent
 
 " Make searches case-insensitive, unless they contain upper-case letters
 set ignorecase

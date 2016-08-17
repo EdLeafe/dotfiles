@@ -2,7 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-THIS_DEVICE=thinkpad
+THIS_DEVICE=CUSTOMIZE
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
@@ -27,10 +27,13 @@ HISTFILESIZE=2000
 
 # Customize for path to virtualenvwrapper.sh
 export WORKON_HOME=$HOME/.virtualenvs                                           
-source /usr/share/virtualenvwrapper/virtualenvwrapper.sh                                      
+source /usr/local/bin/virtualenvwrapper.sh                                      
 
 export PATH=$PATH:$HOME/.local/bin
 export PYTHONPATH=$HOME/.local/lib/python2.7/site-packages
+
+# Set the local environment variables
+source $HOME/.set_envars
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
