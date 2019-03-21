@@ -8,10 +8,7 @@ THIS_DEVICE=CUSTOMIZE
 [ -z "$PS1" ] && return
 
 # don't put duplicate lines in the history. See bash(1) for more options
-export HISTCONTROL=ignoredups
-# ... and ignore same sucessive entries.
-export HISTCONTROL=ignoreboth
-export HISTCONTROL=erasedups
+HISTCONTROL=ignoredups:ignoreboth:erasedups
 
 # Editors
 export GIT_EDITOR=vim
@@ -25,15 +22,8 @@ shopt -s checkwinsize
 HISTSIZE=1000
 HISTFILESIZE=2000
 
-# Customize for path to virtualenvwrapper.sh
-export WORKON_HOME=$HOME/.virtualenvs                                           
-source /usr/local/bin/virtualenvwrapper.sh                                      
-
 export PATH=$PATH:$HOME/.local/bin
 export PYTHONPATH=$HOME/.local/lib/python2.7/site-packages
-
-# Set the local environment variables
-source $HOME/.set_envars
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"

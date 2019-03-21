@@ -10,6 +10,7 @@ nnoremap <F3> :set invpaste paste?<CR>
 set pastetoggle=<F3>
 set showmode
 set completeopt=menuone
+set diffopt=vertical
 
 #execute pathogen#infect()
 
@@ -25,7 +26,7 @@ set wildmenu
 set wildmode=full
 
 " Backspace behavior - default to only what was typed
-set backspace=indent
+set backspace=indent,eol,start
 
 " Make searches case-insensitive, unless they contain upper-case letters
 set ignorecase
