@@ -12,7 +12,7 @@ set showmode
 set completeopt=menuone
 set diffopt=vertical
 
-#execute pathogen#infect()
+"execute pathogen#infect()
 
 filetype on            " enables filetype detection
 filetype plugin on     " enables filetype specific plugins
