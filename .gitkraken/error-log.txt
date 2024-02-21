@@ -1,0 +1,8 @@
+[Sat Feb 03 2024 17:05:16 GMT-0600 (Central Standard Time)] Failed to open diff tool: No file is selected in the Commit Panel or open in the merge resolution panel
+[Tue Feb 06 2024 18:45:24 GMT-0600 (Central Standard Time)] Open Failed: Could not find a compatible repository at 'mock_demo'.
+[Wed Feb 07 2024 11:33:42 GMT-0600 (Central Standard Time)] Staging paths failed: Could not stage paths for the following reason: Cannot read properties of null (reading 'getTree')
+[Wed Feb 07 2024 11:33:45 GMT-0600 (Central Standard Time)] Staging paths failed: Could not stage paths for the following reason: Cannot read properties of null (reading 'getTree')
+[Wed Feb 07 2024 11:33:46 GMT-0600 (Central Standard Time)] Updating file contents failed: Cannot read properties of null (reading 'getTree')
+[Wed Feb 07 2024 11:33:47 GMT-0600 (Central Standard Time)] Staging paths failed: Could not stage paths for the following reason: Cannot read properties of null (reading 'getTree')
+[Wed Feb 07 2024 11:33:58 GMT-0600 (Central Standard Time)] Updating diffs failed: Could not update diffs for the following reason: Cannot read properties of null (reading 'getTree')
+[Wed Feb 07 2024 11:33:58 GMT-0600 (Central Standard Time)] Updating file contents failed: Cannot read properties of null (reading 'getTree')

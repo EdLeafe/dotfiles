@@ -13,13 +13,17 @@ call plug#begin()
 Plug 'tpope/vim-sensible'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
+Plug 'tpope/vim-vinegar'
 Plug 'yegappan/mru'
-Plug 'itchyny/lightline.vim'
+"Plug 'itchyny/lightline.vim'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 Plug 'psf/black', { 'branch': 'stable' }
 Plug 'mhinz/vim-signify'
 Plug 'majutsushi/tagbar'
 Plug 'lepture/vim-jinja'
 Plug 'pangloss/vim-javascript'
+Plug 'vim-scripts/ScrollColors'
 Plug 'metakirby5/codi.vim'
 Plug 'luochen1990/rainbow'
 Plug 'wellle/context.vim'
@@ -41,6 +45,8 @@ Plug 'joshdick/onedark.vim'
 Plug 'josegamez82/starrynight'
 Plug 'wojciechkepka/vim-github-dark'
 Plug 'vim-scripts/lettuce.vim'
+Plug 'jlanzarotta/bufexplorer'
+Plug 'sjl/gundo.vim'
 " Not used
 "Plug 'itchyny/calendar.vim'
 "Plug 'junegunn/goyo.vim'
@@ -81,12 +87,33 @@ set wildignore+=*/.git/*,*/tmp/*,*.swp,*.swo
 let g:ctrlp_map = '<c-n>'
 let g:ctrlp_cmd = 'CtrlPMixed'
 let g:ctrlp_working_path_mode = 'ra'
+"
+" gundo
+let g:gundo_prefer_python3 = 1
 
 " Use Ripgrep for file finder
 if executable('rg')
     set grepprg=rg\ --color=never
     let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
     let g:ctrlp_use_caching = 0
+endif
+
+" guard for distributions lacking the persistent_undo feature.
+if has('persistent_undo')
+    " define a path to store persistent_undo files.
+    let target_path = expand('~/.config/vim-persisted-undo/')
+
+    " create the directory and any parent directories
+    " if the location does not exist.
+    if !isdirectory(target_path)
+        call system('mkdir -p ' . target_path)
+    endif
+
+    " point Vim to the defined undo directory.
+    let &undodir = target_path
+
+    " finally, enable undo persistence.
+    set undofile
 endif
 
 " Make searches case-insensitive, unless they contain upper-case letters
@@ -147,6 +174,10 @@ nmap <Leader>W :set wrap! linebreak textwidth=0<CR>
 vnoremap <Leader>S :'<,'>sort r / .*/<CR>
 " Format code with Black
 nnoremap <Leader>B :Black<CR>
+nnoremap <Leader>bb :Black<CR>
+
+set wildcharm=<Tab>
+nnoremap <Leader><Tab> :buffer<Space><Tab>
 
 nnoremap <F1> :w<CR>
 nnoremap <C-F1> :help<CR>
@@ -156,17 +187,25 @@ map!<F2> <Esc>:w<CR><i>
 "nmap W :w!<CR>
 nmap <silent> <F4> :nohlsearch<CR>
 nmap <C-F5> :%s/\s\+$//g<CR>
-nmap <F5> <C-w>gf
+nmap <F5> <C-w>gFzz
 nmap <F6> :tabnew<CR>:e 
 nmap <C-F6> :tabnew<CR>:e<Space>ngccli/
 vmap <F8> :'<,'>s/^/#/g<CR>
 
 "Keep lines centered
 nnoremap n nzz
+nnoremap N Nzz
+
+
+" Sessions
+nnoremap <leader>ss :mksession! ~/.vim/sessions/
+nnoremap <leader>sl :source ~/.vim/sessions/
+
 
 set showtabline=2
 nmap <C-z> :tabprevious<cr>
-nmap <C-x> :tabnext<cr>
+nmap <C-x> <Nop>
+nmap <C-c> :tabnext<cr>
 "map <C-w> :tabclose<cr>
 "noremap <Space> i<Space><Esc>r
 nnoremap <Leader>z :suspend<CR>
@@ -228,8 +267,18 @@ endfunction
 
 
 " File browsing
+let g:netrw_banner = 0
+let g:netrw_liststyle = 3
 let g:netrw_browse_split = 4
+let g:netrw_altv = 1
 let g:netrw_winsize = 20
+nmap <Leader>VV :Vexplore<cr>
+nmap <Leader>ll :Lexplore<cr>
+"augroup ProjectDrawer
+"  autocmd!
+"  autocmd VimEnter * if argc() == 0 | Vexplore | endif
+"augroup END
+
 
 " MRU
 let MRU_Window_Open_Always = 0
@@ -240,14 +289,12 @@ let MRU_Open_File_Use_Tabs = 1
 "function ToggleWrap()
 "    if g:
 
-" color scheme
 syntax on
 filetype on
 filetype plugin indent on
 
 " lightline
 set noshowmode
-let g:lightline = { 'colorscheme': 'onedark' }
 
 set autoindent
 set history=1000 " keep 1000 lines of history
@@ -317,6 +364,13 @@ vmap <C-c> "+y
 vmap <C-x> "+c
 vmap <C-v> c<ESC>"+p
 imap <C-v> <ESC>"+pa
+vmap <M-c> "+y
+vmap <M-x> "+c
+vmap <M-v> c<ESC>"+p
+imap <M-v> <ESC>"+pa
+
+" quit
+nmap <Leader><Del> ZQ
 
 " disable autoindent when pasting text
 " source: https://coderwall.com/p/if9mda/automatically-set-paste-mode-in-vim-when-pasting-in-insert-mode
@@ -335,24 +389,12 @@ inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 " allow pandoc to read different file types
 autocmd BufReadPost *.doc,*.docx,*.rtf,*.odp,*.odt silent %!pandoc "%" -tplain -o /dev/stdout
 
-" file browser
-let NERDTreeIgnore = ['\.pyc$', '__pycache__']
-let NERDTreeMinimalUI = 1
-let g:nerdtree_open = 0
-map <leader>n :call NERDTreeToggle()<CR>
-function NERDTreeToggle()
-    NERDTreeTabsToggle
-    if g:nerdtree_open == 1
-        let g:nerdtree_open = 0
-    else
-        let g:nerdtree_open = 1
-        wincmd p
-    endif
-endfunction
-
 " FZF
 map <Leader>F :Files<CR>
+map <Leader>G :GFiles<CR>
 map <Leader>R :Rg<CR>
+map <C-f> :Files<CR>
+map <C-g> :GFiles<CR>
 
 " syntastic
 let g:syntastic_always_populate_loc_list = 0
@@ -402,6 +444,23 @@ fun! VisualHTMLTagWrap()
   endif
 endfunc
 
+" Wrap visual selection in any character
+vmap <Leader>r <Esc>:call VisualBlockWrap()<CR>
+fun! VisualBlockWrap()
+  let char = input("Character(s) to wrap block: ")
+  if len(char) > 0
+    normal `>
+    if &selection == 'exclusive'
+      exe "normal i".char
+    else
+      exe "normal a".char
+    endif
+    normal `<
+    exe "normal i".char
+    normal `<
+  endif
+endfunc
+
 " Wrap visual selection in quotes.
 vmap <Leader>q <Esc>:call VisualQuotes()<CR>
 fun! VisualQuotes()
@@ -416,4 +475,12 @@ fun! VisualQuotes()
   normal `<
 endfunc
 
+xnoremap <Leader>" di""<Esc>P
+xnoremap <Leader>" di""<Esc>P
+xnoremap <Leader>' di''<Esc>P
+xnoremap <Leader>' di''<Esc>P
+xnoremap <Leader>( di()<Esc>P
+xnoremap <Leader>) di()<Esc>P
+xnoremap <Leader>< di<><Esc>P
+xnoremap <Leader>> di<><Esc>P
 "autocmd BufWritePost *.py execute ':Black'

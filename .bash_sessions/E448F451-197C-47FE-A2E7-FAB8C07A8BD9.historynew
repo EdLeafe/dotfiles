@@ -1,0 +1,2 @@
+ssh -o StrictHostKeyChecking=no watch.ascii.theater
+ping watch.ascii.theater

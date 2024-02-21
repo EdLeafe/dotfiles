@@ -1,0 +1,7 @@
+settings:
+  clone_protocol: ssh
+  last_version_check: "2024-02-04"
+  max_clone_concurrency: 3
+  max_items_to_display: 30
+  telemetry_enabled: true
+version: 4

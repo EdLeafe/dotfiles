@@ -1,0 +1,179 @@
+{
+  "lastUpgradeScriptRun": "v9.11.1",
+  "appId": "9860eb6bd088059c28471c733f833692e833ca6b",
+  "appLocale": "en-US",
+  "appDateFormat": null,
+  "appDateTimeFormat": null,
+  "appDateWordFormat": null,
+  "appDateVerboseFormat": null,
+  "userMilestones": {
+    "installId": "a50c28bc-917d-420b-a9ed-aad5f4f55a35",
+    "firstAppOpen": true,
+    "firstProfileCreated": true,
+    "completedNewUserOnboarding": true,
+    "firstRepoOpened": true
+  },
+  "sslWhitelist": [],
+  "lastReleaseNotesDisplayed": "9.11.1",
+  "ui": {
+    "shouldShowStartupPromoModal": false
+  },
+  "aliases": {
+    "repo": {},
+    "tabs": {}
+  },
+  "registration": {
+    "EULA": {
+      "status": "agree_unverified",
+      "version": "8.3.1"
+    },
+    "status": "unregistered"
+  },
+  "licensedFeatures": [],
+  "userFeatures": [
+    {
+      "name": "gitkraken"
+    },
+    {
+      "name": "cli"
+    },
+    {
+      "name": "activityStatus"
+    },
+    {
+      "name": "terminalInsideRepoTab"
+    },
+    {
+      "name": "gitBash"
+    },
+    {
+      "name": "changePriceEnabled"
+    },
+    {
+      "name": "gkApi"
+    },
+    {
+      "name": "velocityInClient_9_0_0"
+    },
+    {
+      "name": "experimentalGitBinary"
+    },
+    {
+      "name": "experimentalAiCommmitMsg"
+    },
+    {
+      "name": "workspacesPRComplexity"
+    },
+    {
+      "name": "unregisteredTrials"
+    },
+    {
+      "name": "experimentalGitBinaryDefaultOn960"
+    },
+    {
+      "name": "experimentalGitBinarySpawnServer961"
+    },
+    {
+      "name": "experimentalGitBinaryDefaultOn971"
+    },
+    {
+      "name": "fall23PricingPromotion"
+    },
+    {
+      "name": "goldenTicketSpecial"
+    },
+    {
+      "name": "noGlobalFocusView"
+    },
+    {
+      "name": "gkDotDevFeedbackForm"
+    },
+    {
+      "name": "gkDotDevFvFilters"
+    }
+  ],
+  "fuzzyFinderMetadata": {
+    "itemMetadata": {
+      "OPEN_REPO": {
+        "openRepo-/Users/ed/projects/photoviewer": {
+          "id": "openRepo-/Users/ed/projects/photoviewer",
+          "timestamps": [
+            1706798505159
+          ],
+          "total": 1
+        },
+        "openRepo-/Users/ed/projects/elastic_irc": {
+          "id": "openRepo-/Users/ed/projects/elastic_irc",
+          "timestamps": [
+            1706881778032,
+            1707266611008,
+            1707266919366
+          ],
+          "total": 3
+        },
+        "openRepo-/Users/ed/projects/pyexif": {
+          "id": "openRepo-/Users/ed/projects/pyexif",
+          "timestamps": [
+            1707005837580
+          ],
+          "total": 1
+        },
+        "openRepo-/Users/ed/projects/mock_demo": {
+          "id": "openRepo-/Users/ed/projects/mock_demo",
+          "timestamps": [
+            1707266724649,
+            1707266860886
+          ],
+          "total": 2
+        },
+        "openRepo-/Users/ed/projects/mock_demo/mock_demo": {
+          "id": "openRepo-/Users/ed/projects/mock_demo/mock_demo",
+          "timestamps": [
+            1707266760995
+          ],
+          "total": 1
+        },
+        "openRepo-/Users/ed/projects/pygit": {
+          "id": "openRepo-/Users/ed/projects/pygit",
+          "timestamps": [
+            1707327217165
+          ],
+          "total": 1
+        }
+      },
+      "TOP": {
+        "openFileInExternalView": {
+          "id": "openFileInExternalView",
+          "timestamps": [
+            1707001516493
+          ],
+          "total": 1
+        }
+      }
+    },
+    "queryMetadata": {
+      "TOP": {
+        "merge": [
+          {
+            "id": "openFileInExternalView",
+            "timestamps": [
+              1707001516493
+            ],
+            "total": 1
+          }
+        ]
+      }
+    }
+  },
+  "windowSettings": {
+    "x": 140,
+    "y": 144,
+    "width": 1559,
+    "height": 919,
+    "fullScreen": false,
+    "maximized": false
+  },
+  "commits": {
+    "maxCommitsInGraph": 2000
+  }
+}

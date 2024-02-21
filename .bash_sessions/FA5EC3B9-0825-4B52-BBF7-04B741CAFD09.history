@@ -1,0 +1,780 @@
+fd Penfield
+fd 
+fd '2004 Penfield' 
+fd '2004 Penfield' /Volumes/Photos/iTunes/
+ll /Volumes/Photos/iTunes/iTunes\ Media/Home\ Videos/
+mss
+mkvenv temp
+rmvenv temp 
+python -m venv vtmp
+bash ./vtmp/bin/activate
+pip show
+vim .bash_profile 
+source ./vtmp/bin/activate
+which python
+which pip
+pip list
+pip install -U pip
+pip install requests
+rm -rf vtmp/
+cd /Volumes/Photos/
+ll te*
+rm -f test*
+mkvenv sigs
+workon sigs 
+pip install sigstore
+pri
+ipython
+deactivate 
+rmvenv sigs 
+cd ~/projects/ngc-cli; vim .
+ssh leafe.com
+ssh kitchenpi
+ssh mail.leafe.com
+cd ../photoupload/
+ll
+vim upload.py 
+prp upload.py 
+cd ~
+clear & screen -dr CLI
+clear & screen -dr SDK
+df -h
+mkfile -n 20g test20gb
+ll ~/projects/
+rg mailmaint ~/projects/
+mkfile -n 6.5g test20gb
+rm -f test20gb 
+mkfile -n 6.5g test65gb
+mv test65gb test6gb 
+rm -f test6gb 
+clear & screen -dr CLI
+clear & screen -dr CLI
+cd projects/mailman_held_messages/
+rg http xasync.py 
+clear && prp xasync.py 
+clear & screen -dr CLI
+scanalias bbc
+addalias bbc
+df -h
+killall ssh
+mss
+./wordle.py '....E' 'e' ston
+./wordle.py 're.LE' 'l' stonam
+sudo su -
+ipython
+ngc registry image info drive-priority/driveos-sdk/drive-agx-orin-qnx-aarch64-sdk-build-safety-x86:6.0.6.0-0004
+ngc registry image publish --source drive-priority/driveos-sdk/drive-agx-orin-qnx-aarch64-sdk-build-safety-x86:6.0.6.0-0004 slx1nelv8kdo/driveos-sdk/drive-agx-orin-qnx-aarch64-sdk-build-safety-x86:6.0.6.0-0004
+ngc registry image publish --source drive-priority/driveos-sdk/drive-agx-orin-qnx-aarch64-sdk-build-safety-x86:6.0.6.0-0004 slx1nelv8kdo/driveos-sdk/drive-agx-orin-qnx-aarch64-sdk-build-safety-x86:6.0.6.0-0004 --debug
+ngc org list
+#slx1nelv8kdo
+ngc org info slx1nelv8kdo
+ngc org -h
+ngc team -h
+ngc team list --org slx1nelv8kdo
+ngc team info slx1nelv8kdo/driveos-sdk
+ngc team info slx1nelv8kdo/driveos-sdk --org slx1nelv8kdo
+ngc team info nvidia/test_team
+ngc team info test_team --org nvidia
+prod
+ngc team info driveos-sdk --org slx1nelv8kdo
+ngc registry image publish --source drive-priority/driveos-sdk/drive-agx-orin-qnx-aarch64-sdk-build-safety-x86:6.0.6.0-0004 slx1nelv8kdo/driveos-sdk/drive-agx-orin-qnx-aarch64-sdk-build-safety-x86:6.0.6.0-0004 --debug --org slx1nelv8kdo
+ngc registry chart list ''*ed*'
+stg
+export NGC_CLI_RICH_OUTPUT=1
+ngc registry chart list '*ed*'
+ngc registry chart info nvidia/ednewtest
+ngc registry chart update nvidia/ednewtest --label aa
+ngc registry chart update nvidia/ednewtest --label somethingstrangeXXX
+ngc registry chart update -h
+ngc registry chart update nvidia/ednewtest --label somethingstrangeXXX --label wowowow
+screen -c .SDK.screenrc 
+ngc registry chart update nvidia/ednewtest --label somethingstrange
+clear & screen -dr SDK
+ngc registr chart list '*edn*' --format_type csv
+ngc registry chart list '*edn*' --format_type csv
+ngc registry chart list '*edn*' --format_type csv --column labels
+ngc registry chart list 'nvidia*' --format_type csv --column labels
+ngc registry chart list 'nvidia*' --help
+ngc registry chart list 'nvidia/*' --format_type csv --column labels > LABS
+mv LABS LABS.csv
+open LABS.csv 
+rm -f LABS.csv 
+ssh mail.leafe.com
+cd ../photoupload/
+tail -f log/upload.log 
+vim upload.py 
+git clone git@github.com:obra/Youtube2Webpage.git
+ll -rt
+cd Youtube2Webpage/
+./yt-to-webpage.pl nvvaluable https://www.youtube.com/watch?v=wHPwpq0Dy8s
+vim yt-to-webpage.pl 
+mkdir xxx
+rmdir xxx
+./yt-to-webpage.pl xxx https://www.youtube.com/watch?v=wHPwpq0Dy8s
+ll nvvaluable/
+lla xxx
+b
+rm -rf Youtube2Webpage/
+ess
+cd do_spaces/
+vim -p *py
++
+lla
+lla ~/.d*
+vim utils.py 
+pri
+cdn
+ll ngccli/modules/
+ll ngccli/
+ll ngccli/cacerts/
+ll ngccli/egx_data/
+ll ngccli/data/
+ll ngccli/data/api/
+ll ngc-ecm/
+ll ngc-ecm/src/
+cd ~
+mkdir mountain
+rm -rf mountain/
+umount mountain
+ll
+chmod 777 mountain/
+clear & screen -dr CLI
+scanalias bbc
+addalias bbc
+killall ssh
+ssh mail.leafe.com
+./wordle.py 're.LE' 'l' stonam
+./wordle.py '.LEAE' 'ela' stonpd
+early
+./wordle.py 'e[LA]E[LA]E' 'ela' stonpdry
+./wordle.py '.[RT].IT' 'rit' sonefu
+mss
+./wordle.py '....e' '' ston
+./wordle.py '..a.e' '' stonpec
+./wordle.py '..a.e' '' stonpc
+./wordle.py '.Ma.e' 'm' stonpcig
+ll Library/CloudStorage/
+ll Library/CloudStorage/Box-Box/
+dust Library/CloudStorage/
+ssh kitchenpi
+./wordle.py 's....' '' tone
+./wordle.py 's..R.' 'r' tonecaf
+./wordle.py 's.r[RU].' 'ru' tonecafhg
+df -h
+scanalias lem
+scanalias gra
+scanalias gc
+addalias gc
+./wordle.py 's...E' 'e' ton
+./wordle.py 's.e.E' 'e' tonmar
+ipython
+cd projects/finance/
+lla
+vim constants.py 
+lla /.vol/
+lla /Volumes/Photos/.vol
+ess
+cd ~
+./wordle.py '....E' 'e' ston
+./wordle.py '.E.RE' 'er' stonway
+./wordle.py '.ider' '' stonwayr
+./wordle.py '.ider' '' stonway
+vim wordle.py 
+shrt
+shrt https://www.amazon.com/photos/shared/YCkeUD4sR4uOrBkCPp1xFw.aM_0eUdUt2O6XYyshHcJGI
+scanalias exp
+scanalias new
+addalias saexpnews
+./wordle.py '.Tone' 't' sone
+./wordle.py '.T...' 't' sone
+./wordle.py 'TT.A.' 'ta' soneril
+./wordle.py 'TaT[AC]H' 'tch' sonerilw
+scanalias phot
+addalias photoworkbench
+./wordle.py '..o.e' '' stn
+./wordle.py '..ove' '' stnpr
+ping -c 3 google.com
+lsof | grep /Volumes/Photos/
+lsof
+lsof | rg Photos
+./wordle.py '.TO..' 'to' sne
+./wordle.py '.T[TO]O.' 'to' sneacr
+./wordle.py '.ou[TO]h' 't' sneacrm
+mss
+./wordle.py '....E' 'e' ston
+./wordle.py 're.LE' 'l' stonam
+cd projects/mailman_held_messages/
+ll
+prp held_messages.py 
+prp xasync.py 
+cd ~/dls
+wget --content-disposition https://ngc.nvidia.com/downloads/ngccli_linux.zip && unzip ngccli_linux.zip && chmod u+x ngc-cli/ngc
+cd -
+clear && prp xasync.py 
+cd ~/projects/ngc-cli
+sudo su -
+cd ~/projects/ngc-cli; vim .
+screen -c .CLI.screenrc 
+clear & screen -dr CLI
+mss
+cdn
+rg -i starfleet nn/
+cd -
+cd dls
+curl -L https://wordledictionary.com/results/ -O wdict.html
+curl -L https://wordledictionary.com/results/ -o wdict.html
+vim wdict.html 
+vim
+k:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">87<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Poesy</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1k:hove1-5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">87<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Voila</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Apron</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Cream</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Facet</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Ounce</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Stoke</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Value</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Ankle</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Mealy</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Miner</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Naive</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Since</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Slide</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Tried</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Acorn</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Adorn</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Exalt</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Inane</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">1 consonant</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Reply</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">1 vowel</p><p class="text-gray-500 text-sm">4 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Scent</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">1 vowel</p><p class="text-gray-500 text-sm">4 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Slime</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div><
+cdn
+python /Users/ed/projects/ngc-cli/ngccli/__main__.py
+python /Users/ed/projects/ngc-cli/bin/ngc.py 
+cd dls
+pbpaste > wdict.html
+ll -rt
+vim wdict.html 
+mv wdict.html wdict.txt
+ll ../*txt
+diff wdict.txt ../dict_wordle.txt 
+cat wdict.txt >>../dict_wordle.txt 
+b
+vim dict_wordle.txt 
+rm dls/wdict.txt 
+screen -dr CLI
+fg
+. /Users/ed/.cache/virtualenvs/ngccli-hHOsXGyD-py3.9/bin/activate
+pip
+pip install -U pytest-pudb ipython
+. /Users/ed/.cache/virtualenvs/ngccli-hHOsXGyD-py3.9/bin/activate
+pip install -U pip
+cd ~/projects/ngc-cli; vim .
+screen -c .CLI.screenrc 
+clear & screen -dr CLI
+rg -i starfleet nn/
+cd -
+cd dls
+curl -L https://wordledictionary.com/results/ -O wdict.html
+curl -L https://wordledictionary.com/results/ -o wdict.html
+vim wdict.html 
+k:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">87<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Poesy</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1k:hove1-5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">87<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Voila</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Apron</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Cream</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Facet</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Ounce</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Stoke</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Value</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Ankle</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Mealy</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Miner</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Naive</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Since</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Slide</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Tried</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Acorn</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Adorn</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Exalt</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Inane</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">1 consonant</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Reply</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">1 vowel</p><p class="text-gray-500 text-sm">4 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Scent</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">1 vowel</p><p class="text-gray-500 text-sm">4 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Slime</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div><
+ll /tmp/
+python lotto_play.py 
+cdn
+prod
+ngc resource list '*ed*'
+export NGC_CLI_RICH_OUTPUT=1
+ngc registry resource list '*ed*'
+ngc registry resource info nvidia/tao/tao-getting-started
+ngc registry resource create nvidian/ed_test
+ngc registry resource list '*ed_*'
+ngc registry resource create nvidian/ed_test --application OTHER --framework Other --format xx --precision OTHER --short-desc upload-test
+open .
+ngc registry resource upload-version nvidian/ed_test:1 --source upload_test
+ngc registry resource upload-version nvidian/ed_test:2 --source upload_test
+ngc registry resource upload-version nvidian/ed_test:2 --source report.xml
+ngc registry resource info nvidian/ed_test:2
+ngc registry resource remove -y nvidian/ed_test
+stg
+ngc ace info qa3
+ngc registry image list nvidia/busybox:*
+ngc dataset info 216804
+ngc dataset list --ace qa3
+rg 216804 tests/integration/
+ll
+rm -f upload_test/*
+vim junk.py 
+prp junk.py 
+ll upload_test/
+ngc dataset upload -h
+ngc dataset upload --org nvidia --source upload_test/ --ace qa3 --desc "CLI Integration Test dataset"
+ngc dataset upload --org nvidia --source upload_test/ --ace qa3 --desc "CLI Integration Test dataset" integration_test
+ngc dataset upload --org nvidia --source upload_test/ --ace qa3 --desc cli_testing integration_test
+ngc dataset remove -y integration_test
+ngc dataset info integration_test
+ngc dataset 
+ngc dataset upload --org nvidia --source upload_test/ --ace qa3 --desc cli_testing cli_integration
+vim poetry.lock 
+ssh dodata
+mss
+cd ~/dls
+ll -rt
+cd Python-3.9.16
+h config
+make clean
+h configure
+./configure --with-openssl=$(brew --prefix openssl) --enable-optimizations
+make
+sudo make install
+which python
+echo $PATH
+vim
+addalias gc
+./wordle.py 's...E' 'e' ton
+./wordle.py 's.e.E' 'e' tonmar
+ipython
+cd projects/finance/
+lla
+vim constants.py 
+lla /.vol/
+lla /Volumes/Photos/.vol
+ess
+cd ~
+./wordle.py '....E' 'e' ston
+./wordle.py '.E.RE' 'er' stonway
+./wordle.py '.ider' '' stonwayr
+./wordle.py '.ider' '' stonway
+vim wordle.py 
+shrt
+shrt https://www.amazon.com/photos/shared/YCkeUD4sR4uOrBkCPp1xFw.aM_0eUdUt2O6XYyshHcJGI
+scanalias exp
+scanalias new
+addalias saexpnews
+./wordle.py '.Tone' 't' sone
+./wordle.py '.T...' 't' sone
+./wordle.py 'TT.A.' 'ta' soneril
+./wordle.py 'TaT[AC]H' 'tch' sonerilw
+scanalias phot
+addalias photoworkbench
+./wordle.py '..o.e' '' stn
+./wordle.py '..ove' '' stnpr
+ping -c 3 google.com
+lsof | grep /Volumes/Photos/
+lsof
+lsof | rg Photos
+./wordle.py '.TO..' 'to' sne
+./wordle.py '.T[TO]O.' 'to' sneacr
+./wordle.py '.ou[TO]h' 't' sneacrm
+mss
+./wordle.py '....E' 'e' ston
+./wordle.py 're.LE' 'l' stonam
+cd projects/mailman_held_messages/
+ll
+prp held_messages.py 
+prp xasync.py 
+cd ~/dls
+wget --content-disposition https://ngc.nvidia.com/downloads/ngccli_linux.zip && unzip ngccli_linux.zip && chmod u+x ngc-cli/ngc
+cd -
+clear && prp xasync.py 
+cd ~/projects/ngc-cli
+ngc dataset download -h
+ngc dataset info 1603258
+mkdir ds_out
+ngc dataset download 1603258 --dir "/test" --file "/test_manifest.json" --file ".json" --file ".png" --dest ds_out/
+ngc dataset download 1603258 --dir "/test" --file "/test_manifest.json" --file "*.json" --file "*.png"
+ngc dataset download 1603258 --dest ds_out/
+ngc dataset download 1603258 --dry-run
+df -h
+ngc dataset download 1603258 --dest ds_out/ --file "*"
+ngc dataset download 1603258 --dest ds_out/ --file "*" --dry-run
+ll -rt
+rm -f DS_FILES 
+git diff
+git reset --hard
+git log --graph --format
+git help log
+git log --graph 
+git log --graph --reflog
+git log --graph --reflog --pretty
+git log --graph --reflog --pretty --decorate
+open tests/integration/
+prt tests/integration/test_chart.py 
+prt tests/integration/test_custom_arg_parsing.py 
+prt tests/integration/test_custom_arg_parsing.py::test_leaf_args_d
+prt tests/integration/test_custom_arg_parsing.py::test_leaf_args_duplication_errors
+git sw -c tests/integration/cust_arg
+poetry run python bin/ngc.py registry model create --application cars --framework phoenix --format json --precision 5.0
+ngc registry model create --application cars --framework phoenix --format json --precision 5.0
+ngc registry model create --application cars --framework phoenix --format json --precision 5.0 --short-desc aaa --owner-name nvidia --owner-name jim model_name
+prt tests/integration/test_custom_arg_parsing.py::test_registry_model_args_duplication_errors
+ngc batch exe 12345
+tests/integration/test_custom_arg_parsing.py::test_invalid_choice_message
+PYTHONPATH=$PYTHONPATH:$HOME/projects/ngc-cli poetry run python bin/ngc.py batch exe 12345
+prt tests/integration/test_custom_arg_parsing.py::test_invalid_choice_message
+prt tests/integration/test_custom_arg_parsing.py
+prt tests/integration/test_diagnostic.py 
+prt tests/integration/ > INTTESTS
+isort ngccli/ tests/
+git commit -a -m "test: fix the custom arg parsing integration test"
+git diff main -- ngccli/tracing.py
+git commit --amend
+git push -u origin tests/integration/cust_arg 
+git co main ngccli/tracing.py
+git commit -a --amend
+gti push -f
+git push -f
+rg -l 'pytest.skip' tests/
+rm -f .tox/
+lla -rt
+head -n 33 tests/integration/test_workspace.py 
+rg testutils tests/integration/
+rg testutils tests/integration/ > INT
+git mv tests/integration/testutils.py tests/integration/utils.py
+rm -f INT
+rg DATASET_GET tests/
+ngc batch run -h
+ngc batch exec -h
+rg BATCH_GET test
+rg BATCH_GET tests/
+prt tests/integration/test_smoke.py::test_upload_download_dataset
+prt tests/integration/test_workspace.py 
+rg qa3 tests/integration/
+rg qa3 tests/integration/prt tests/integration/test_workspace.py::test_workspace_files_md5
+rg 'workspace get' tests/integration/
+tg
+prt tests/integration/test_workspace.py::test_workspace_files_md5oetry run python /Users/ed/projects/ngc-cli/ngccli/__main__.py --format_type=ascii workspace create --ace qa3
+poetry run python /Users/ed/projects/ngc-cli/ngccli/__main__.py --format_type=ascii workspace create --ace qa3
+ngc --format_type=ascii workspace create --ace qa3
+prt tests/integration/test_workspace.py::test_workspace_files_md5
+rg set_integ_user tests/integration/
+git show 19ccc0e85
+prod
+ngc dataset info 1602783
+ngc dataset upload -h
+ngc dataset  -h
+git diff -- tests/integration/test_org.py
+git sw -c tests/integration/smoke
+stg
+prt tests/integration/test_smoke.py 
+prt tests/integration/test_smoke.py::test_job
+gs
+git ls
+git commit -a -m "test: fix test_smoke.py"
+git sw main
+ngc registry resource list --debug
+
+ngc registry resource list --debug > RSRC
+ngc registry resource list '*busybox*' --debug 
+ngc registry resource list '*triton*' --debug 
+ngc registry resource list '*torch*' --debug 
+rg nameSort nn/
+ngc registry resource list '*torch*' 
+ngc registry resource list '*torch*' --debug
+pydev -h
+pyenv -h
+pyenv versions
+pyenv install -h
+pyenv install -l | rg ^3.9.16
+pyenv install -l | rg 3.9.16
+pyenv install -l 
+pyenv install 3.9.14
+pyenv local 3.9.14
+pri
+brew search 3.9.16
+brew search python
+brew search python@3.9
+brew update
+brew info python@3.9
+export NGC_CLI_RICH_OUTPUT=1
+ngc registry chart list '*test*' --org
+ngc registry chart publish --source nvidia/teamtest:0.1.0 nvidia/test_team/teamtest:0.1.0
+ngc registry chart publish nvidia/test_team/teamtest:0.1.0
+ngc registry image list '*test*'
+git restore ngccli/modules/publish.py
+ngc registry image publish nvidia/test_team/test-pgs:latest
+ngc registry image publish nvidia/test_team/test-pgs:latest --visibility-only
+ngc registry image publish nvidia/test_team/test-pgs:latest --visibility-only --source foo
+prt tests/unit/modules/test_chart.py::test_publish_source_arg
+prt tests/unit/modules/test_image.py::test_publish_source_arg
+prt tests/unit/modules/test_model.py::test_publish_source_arg
+prt tests/unit/modules/test_resource.py::test_publish_source_arg
+ngc registry collection list '*test*'
+ngc registry collection info nvidia/testcoll
+ngc registry collection list nvidia/cim/e2e_test_collection_773382
+ngc registry collection info nvidia/cim/e2e_test_collection_773382
+prt tests/unit/modules/test_collection.py::test_publish_source_arg
+pr black --preview ngccli/ tests/
+rm -rf .tox/
+poetry run tox --parallel auto > OUT
+poetry show ngcpygo
+poetry remove ngcpygo
+git tag list | grep CLI
+git tag -l | grep CLI
+git tag -l | grep STG
+rmvenv ngccli-hHOsXGyD-py3.9 
+poetry install
+rmvenv ngccli-hHOsXGyD-py3.10 
+. /Users/ed/.cache/virtualenvs/ngccli-hHOsXGyD-py3.9/bin/activate
+pip list | rg pygo
+. /Users/ed/.cache/virtualenvs/ngccli-hHOsXGyD-py3.9/bin/activate
+pip search ngcpygo
+. /Users/ed/.cache/virtualenvs/ngccli-hHOsXGyD-py3.9/bin/activate
+pip install pytest-pudb ipython
+vim
+which python
+fd python /usr/
+fd python /usr/local/
+fd python3.9 /usr/local/
+brew uninstall python@3.9
+brew uninstall --ignore-dependenciespython@3.9
+brew uninstall --ignore-dependencies python@3.9
+fd python3.9 /usr
+fd python3.9.16 /
+cd venvs/ngccli-hHOsXGyD-py3.9/lib/python3.9/site-packages/
+ll
+open .
+mss
+ssh dodata
+ssh leafe.com
+ess
+cd ~/dls
+wget --content-disposition https://ngc.nvidia.com/downloads/ngccli_linux.zip && unzip ngccli_linux.zip && chmod u+x ngc-cli/ngc
+cd -
+cd projects/mailman_held_messages/
+pss vim
+kill 31382
+clear && prp xasync.py 
+ssh dodata
+./wordle.py 'TaT[AC]H' 'tch' sonerilw
+scanalias phot
+addalias photoworkbench
+./wordle.py '..o.e' '' stn
+./wordle.py '..ove' '' stnpr
+lsof | grep /Volumes/Photos/
+lsof
+lsof | rg Photos
+./wordle.py '.TO..' 'to' sne
+./wordle.py '.T[TO]O.' 'to' sneacr
+./wordle.py '.ou[TO]h' 't' sneacrm
+./wordle.py 're.LE' 'l' stonam
+cd projects/mailman_held_messages/
+prp held_messages.py 
+prp xasync.py 
+cd ~/dls
+wget --content-disposition https://ngc.nvidia.com/downloads/ngccli_linux.zip && unzip ngccli_linux.zip && chmod u+x ngc-cli/ngc
+clear && prp xasync.py 
+./wordle.py '.T..E' 'te' son
+./wordle.py 'd[ET].TE' 'te' sonah
+./wordle.py 'st...' '' one
+./wordle.py 'sta..' '' onemp
+./wordle.py 'stai.' '' ornemp
+./wordle.py '.To..' 't' sne
+./wordle.py '.To.t' '' snefla
+cd dls/Python-3.9.16
+./configure 
+./configure --enable-optimizations
+make
+brew search openssl
+make test
+python3.9.16
+fd python* /usr/
+bb
+fd python /usr/local/
+fd python3.9 /usr/local/
+fd python3.9.16 /
+cd -
+sudo make install
+cd /usr/local/lib/
+cd python3.9/
+ll
+path
+export PATH=/Users/ed/.poetry/bin:/usr/local/opt/mysql-client/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin
+which python3.9
+python3.9
+cdn
+prp
+prod
+ngc dataset info imagenet_val --org nvidian --team dlmed --ace nv-us-west-2
+poetry run which python
+brew --prefix openssl
+cd /usr/local/opt/openssl@1
+cd /usr/local/opt/openssl@1.1
+ll include/
+ll include/openssl/
+ll lib/
+./wordle.py '.TO.E' 'toe' sn
+ll /usr/local/bin/
+/usr/local/bin/python3.8 wordle.py '.oOe[TE]' 't' sncm
+/usr/local/bin/python3.8 wordle.py '.TO.E' 'toe' sn
+./wordle.py '.T.Ne' 'tn' so
+which python
+/usr/local/bin/python3.10
+/usr/local/bin/python3.10 wordle.py '.T.Ne' 'tn' so
+vim wordle.py 
+sudo /usr/local/bin/python3.9 -m pip install pytest
+sudo /usr/local/bin/python3.9 -m pip install -U pip
+/usr/local/bin/python3.9 wordle.py '.T.Ne' 'tn' so
+vim dict_wordle.txt 
+mss
+ipython
+ll /var/folders/nj/s3rbm4gx6cgbq8yw7f79b4s40000gn/T/tmpcoz6eu2b
+ll /var/folders/nj/s3rbm4gx6cgbq8yw7f79b4s40000gn/T/tmpcoz6eu2b/dir9/
+/usr/local/bin/python3.9 wordle.py
+/usr/local/bin/python3.9 wordle.py '.....' '' atone
+/usr/local/bin/python3.9 wordle.py '.....' '' atoneslick
+/usr/local/bin/python3.9 wordle.py 'Ru..y' 'r' atoneslickgb
+echo $PATH
+cd /usr/local/bin/
+ln -s python3.9 python
+ll py*
+cd ~
+python
+ping -c 3 google.com
+./wordle.py 
+./wordle.py '.T..E' 'te' aon
+./wordle.py 'STE.t' 'se' aonwp
+./wordle.py 'SeESt' 's' aonwphi
+./wordle.py '....E' 'e' ston
+./wordle.py 'REA.E' 'era' stonlm
+./wordle.py 'R[AE]AE[Er]' 'era' stonlmwf
+rg -i starfleet nn/
+cd -
+cd dls
+curl -L https://wordledictionary.com/results/ -O wdict.html
+curl -L https://wordledictionary.com/results/ -o wdict.html
+vim wdict.html 
+vim
+k:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">87<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Poesy</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1k:hove1-5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">87<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Voila</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Apron</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Cream</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Facet</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Ounce</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Stoke</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Value</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Ankle</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Mealy</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Miner</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Naive</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Since</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Slide</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Tried</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Acorn</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Adorn</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Exalt</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Inane</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">1 consonant</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Reply</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">1 vowel</p><p class="text-gray-500 text-sm">4 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Scent</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">1 vowel</p><p class="text-gray-500 text-sm">4 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Slime</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div><
+python /Users/ed/projects/ngc-cli/ngccli/__main__.py
+python /Users/ed/projects/ngc-cli/bin/ngc.py 
+cd dls
+pbpaste > wdict.html
+ll -rt
+vim wdict.html 
+mv wdict.html wdict.txt
+ll ../*txt
+diff wdict.txt ../dict_wordle.txt 
+cat wdict.txt >>../dict_wordle.txt 
+b
+vim dict_wordle.txt 
+rm dls/wdict.txt 
+fg
+screen -ls
+lla .lo*
+vim .lotto_numbers 
+ifconfig
+ifconfig|rg 192
+ll /usr/local/opt/
+ll /usr/local/opt/openssl@3
+ll /usr/local/opt/openssl@3/
+cd dls/Python-3.9.16
+./configure CPPFLAGS="-I/usr/local/opt/openssl@3/include" LDFLAGS="-L/usr/local/opt/openssl/@3lib"
+./configure CPPFLAGS="-I/usr/local/opt/openssl@3/include" LDFLAGS="-L/usr/local/opt/openssl/@3lib" --enable-optimizations
+./configure CPPFLAGS="-I/usr/local/opt/openssl@1/include" LDFLAGS="-L/usr/local/opt/openssl/@1lib" --enable-optimizations
+./configure CPPFLAGS="-I/usr/local/opt/openssl@1.1/include" LDFLAGS="-L/usr/local/opt/openssl/@1.1lib" --enable-optimizations
+brew search openssl
+./configure --with-openssl=$(brew --prefix openssl)
+make clean
+./configure --with-openssl=$(brew --prefix openssl) --enable-optimizations
+make
+sudo make install
+python
+ll /usr/local/bin/pyt*
+cdn
+export PATH=/Users/ed/.poetry/bin:/usr/local/opt/mysql-client/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin
+echo $PATH
+export PATH=/usr/local/bin:/Users/ed/.poetry/bin:/usr/local/opt/mysql-client/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin
+prp
+rmvenv ngc-cli-hHOsXGyD-py3.9 
+git restore -- pyproject.toml
+poetry install
+poetry --version
+vim pyproject.toml 
+sudo pip install poetry==1.1.15
+poetry self update 1.1.15
+prod
+ngc registry chart list '*test*'
+poetry shell
+git pull
+stg
+git sw -c fix/publish/validate
+cd ~
+h configure
+which python
+fd python3.9 /usr/
+/usr/local/bin/python3.9
+vim 
+source .bash_profile 
+python3
+killall ssh
+screen -dr CLI
+rg -i starfleet nn/
+cd -
+cd dls
+curl -L https://wordledictionary.com/results/ -O wdict.html
+curl -L https://wordledictionary.com/results/ -o wdict.html
+vim wdict.html 
+vim
+k:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">87<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Poesy</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1k:hove1-5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">87<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Voila</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Apron</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Cream</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Facet</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Ounce</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Stoke</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Value</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Ankle</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Mealy</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Miner</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Naive</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">2 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Since</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Slide</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Tried</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Acorn</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Adorn</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Exalt</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Inane</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">3 vowels</p><p class="text-gray-500 text-sm">1 consonant</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Reply</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">1 vowel</p><p class="text-gray-500 text-sm">4 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Scent</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">1 vowel</p><p class="text-gray-500 text-sm">4 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div></div><div class="word-title absolute top-1/2 left-1/2 word-centered"><span class="word text-black dark:text-white sm:text-3xl text-2xl"><span>Slime</span></span></div><div class="absolute bottom-4 left-4"><div class="word-meta"><p class="text-gray-500 text-sm">2 vowels</p><p class="text-gray-500 text-sm">3 consonants</p></div></div><div class="absolute bottom-5 right-5"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 p-1 rounded-full bg-gray-100 dark:bg-gray-900" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z"></path></svg></div></div><div class="relative bg-white dark:bg-gray-900 border border-gray-200 transition-all hover:border-gray-900 dark:hover:border-gray-200 dark:border-gray-900 h-48 sm:h-64 rounded-2xl drop-shadow-md cursor-pointer"><div class="absolute top-2 left-2"><div class="word-score px-2 rounded-full"><div><p class="text-gray-400 dark:text-gray-600 text-xs font-semibold">Guess Power</p><p class="text-black dark:text-white sm:text-xl text-lg">86<span class="text-opacity-50">%</span></p></div></div><
+python /Users/ed/projects/ngc-cli/ngccli/__main__.py
+python /Users/ed/projects/ngc-cli/bin/ngc.py 
+cd dls
+pbpaste > wdict.html
+ll -rt
+vim wdict.html 
+mv wdict.html wdict.txt
+ll ../*txt
+diff wdict.txt ../dict_wordle.txt 
+cat wdict.txt >>../dict_wordle.txt 
+b
+vim dict_wordle.txt 
+rm dls/wdict.txt 
+fg
+screen -ls
+lla .lo*
+vim .lotto_numbers 
+ifconfig
+ifconfig|rg 192
+ll /usr/local/opt/
+ll /usr/local/opt/openssl@3
+ll /usr/local/opt/openssl@3/
+cd dls/Python-3.9.16
+./configure CPPFLAGS="-I/usr/local/opt/openssl@3/include" LDFLAGS="-L/usr/local/opt/openssl/@3lib"
+./configure CPPFLAGS="-I/usr/local/opt/openssl@3/include" LDFLAGS="-L/usr/local/opt/openssl/@3lib" --enable-optimizations
+./configure CPPFLAGS="-I/usr/local/opt/openssl@1/include" LDFLAGS="-L/usr/local/opt/openssl/@1lib" --enable-optimizations
+./configure CPPFLAGS="-I/usr/local/opt/openssl@1.1/include" LDFLAGS="-L/usr/local/opt/openssl/@1.1lib" --enable-optimizations
+brew search openssl
+./configure --with-openssl=$(brew --prefix openssl)
+make clean
+./configure --with-openssl=$(brew --prefix openssl) --enable-optimizations
+make
+sudo make install
+python
+ll /usr/local/bin/pyt*
+cdn
+export PATH=/Users/ed/.poetry/bin:/usr/local/opt/mysql-client/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin
+echo $PATH
+export PATH=/usr/local/bin:/Users/ed/.poetry/bin:/usr/local/opt/mysql-client/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/opt/X11/bin:/Library/Apple/usr/bin
+prp
+rmvenv ngc-cli-hHOsXGyD-py3.9 
+git restore -- pyproject.toml
+poetry install
+poetry --version
+vim pyproject.toml 
+sudo pip install poetry==1.1.15
+poetry self update 1.1.15
+prod
+ngc registry chart list '*test*'
+poetry shell
+git pull
+stg
+git sw -c fix/publish/validate
+cd ~
+h configure
+which python
+fd python3.9 /usr/
+/usr/local/bin/python3.9
+vim 
+source .bash_profile 
+python3
+killall ssh
+screen -dr CLI
+pss iTerm
+pkill iTerm
+pss iTerm
+pkill iTerm
+pkill iTerm
+./wordle.py 'S.A..' 'sa' tre
+./wordle.py 'ba[AS].L' 'sl' trei
+balsa
+vim dict_wordle.txt 
+cat dict_wordle.txt | wc -l
+pkill iTerm
+./wordle.py 'S.A..' 'sa' tre
+./wordle.py 'ba[AS].L' 'sl' trei
+balsa
+vim dict_wordle.txt 
+cat dict_wordle.txt | wc -l
+pgrep iterm
+pgrep -i iterm
+pkill -i iterm
+screen -ls

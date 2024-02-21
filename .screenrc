@@ -1,10 +1,12 @@
 startup_message off 
-sessionname "Main"
+sessionname "Primary"
 vbell off 
 nethack on
+shell -$SHELL
+defscrollback 1024
 
 screen -t "vim" 0
-stuff "vim ~\012"
+stuff "vim \012"
 
 screen -t "home" 1
 stuff "cd ~\012"
@@ -12,7 +14,9 @@ stuff "cd ~\012"
 screen -t "root" 2
 stuff "sudo su -\012"
 
+#caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %0c:%s"
 hardstatus alwayslastline
+#hardstatus string "%{= kG}[ %{G}%H %{g}][%= %{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %d/%m %{W}%c %{g}]"
 hardstatus string "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %0c:%s"
 
 select 1

@@ -1,0 +1,18 @@
+[2024-02-01T14:48:13.478Z] {{{GK_MULTI_LINE}}}
+Fetch remote origin: fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+{{{/GK_MULTI_LINE}}}
+[2024-02-01T20:32:04.107Z] {{{GK_MULTI_LINE}}}
+Fetch remote origin: fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+{{{/GK_MULTI_LINE}}}
+[2024-02-02T03:13:01.052Z] {{{GK_MULTI_LINE}}}
+Fetch remote origin: fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+{{{/GK_MULTI_LINE}}}

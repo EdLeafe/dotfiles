@@ -18,6 +18,7 @@
     trustExitCode = true
 [alias]
     br = branch
+    brs = branch --sort committerdate
     ci = commit
     co = checkout
     diffn = diff --name-only

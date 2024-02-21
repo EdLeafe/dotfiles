@@ -1,0 +1,63 @@
+### Mickey's .inputtrc
+
+# Change the timeout for key sequences as 500ms is too fast.
+set keyseq-timeout 1200
+
+# By default, completions are not highlighted in color.
+set colored-stats on
+set colored-completion-prefix on
+
+### BASH
+
+$if Bash
+# Wrap a command in $( ... )
+"\C-xq": "\C-a\$(\C-e)"
+# Wrap a command in $( .... | ezf -f 1)
+"\C-xF": "\C-e | fzf -f 1)\C-a(\C-a$\C-b\C-a"
+
+# C-M-o is dabbrev-expand
+"\e\C-o": dabbrev-expand
+
+$endif
+
+### Python
+
+$if Python
+
+# Wrap prompt in !help( ... )  (for PDB)
+"\C-xh": "\C-a!help(\C-e)"
+# Wrap prompt in dir( ... )
+"\C-xd": "\C-adir(\C-e)"
+
+$endif
+
+### Global
+
+
+# Prints the last recorded macro
+"\C-xP": print-last-kbd-macro
+
+# M-m is back-to-indentation which is what I usually use to go to the
+# beginning of a line; everywhere else, I bind it like C-a.
+"\em": beginning-of-line
+# M-p and M-n should behave like they do in M-x shell in Emacs.
+"\ep": previous-history
+"\en": next-history
+
+# C-M-f and C-M-v dump functions and variables.
+"\e\C-f": dump-functions
+"\e\C-v": dump-variables
+
+
+
+# Original settings
+# "\em": beginning-of-line
+# "\C-xM": print-last-kbd-macro
+C-M-f and C-M-v dump functions and variables.
+# "\e\C-t": dump-functions
+# "\e\C-b": dump-variables
+# "\e[1;5D": backward-word
+# "\e[1;5C": forward-word
+# set colored-stats on
+# set colored-completion-prefix on
+# 

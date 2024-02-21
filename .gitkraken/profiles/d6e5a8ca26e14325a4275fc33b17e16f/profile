@@ -1,0 +1,64 @@
+{
+  "tabInfo": {
+    "permanentTabs": {
+      "PROJECTS": {
+        "selectedProject": null,
+        "closed": false
+      }
+    },
+    "selectedTabId": "15fb62fd-c8ed-452d-abf3-0d9ef4cf7cae",
+    "tabs": [
+      {
+        "id": "15fb62fd-c8ed-452d-abf3-0d9ef4cf7cae",
+        "type": "REPO",
+        "repoName": "pygit",
+        "repoPath": "/Users/ed/projects/pygit/",
+        "skipWSLChecks": false
+      }
+    ]
+  },
+  "externalEditor": "VS Code",
+  "editor": {
+    "fontFamily": "Monaco"
+  },
+  "cli": {
+    "fontFamily": "Monaco"
+  },
+  "userEmail": "ed@leafe.com",
+  "userName": "EdLeafe",
+  "gpg": {
+    "commitGpgSign": false,
+    "tagForceSignAnnotated": false
+  },
+  "ui": {
+    "theme": "light"
+  },
+  "projects": {},
+  "fileNodeList": {
+    "sort": "name_ascending"
+  },
+  "repoInit": {
+    "lastRepoInitPath": "/Users/ed/projects/"
+  },
+  "projectGroupsFrecencyMetadata": {
+    "/Users/ed/projects/mock_demo": {
+      "id": "project-group-/Users/ed/projects/mock_demo",
+      "timestamps": [
+        1707266760898
+      ],
+      "total": 1
+    },
+    "/Users/ed/projects/": {
+      "id": "project-group-/Users/ed/projects/",
+      "timestamps": [
+        1707266860796
+      ],
+      "total": 1
+    }
+  },
+  "layout": {
+    "DetailPanel": {
+      "width": 555
+    }
+  }
+}

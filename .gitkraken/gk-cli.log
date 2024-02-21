@@ -1,0 +1,2 @@
+time=2024-02-03T17:05:47.928-06:00 level=ERROR msg=error !BADKEY="error.use_ws_create_command_first: [\x1b[38;2;147;169;236mgk workspace create\x1b[0m]"
+time=2024-02-03T17:05:48.203-06:00 level=ERROR msg="otel err" !BADKEY="OTLP partial success: empty message (0 spans rejected)"

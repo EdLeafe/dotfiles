@@ -1,0 +1,149 @@
+{
+  "remoteParents": {},
+  "teams": {
+    "hasFinishedSettingUpTeams": true
+  },
+  "remoteHeadCollectionByRemoteName": {
+    "origin": {
+      "HEAD": {
+        "name": "HEAD",
+        "oid": "6fe8f3d9bddb6ee0a5a9314524f128fe02820122",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/heads/anthias": {
+        "name": "refs/heads/anthias",
+        "oid": "0e43d8a50aac339a3b50f81380f97babd16d0206",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/heads/feat/html/refresh": {
+        "name": "refs/heads/feat/html/refresh",
+        "oid": "abe2293ea2ebc5a30a058b45718071b9760c12c1",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/heads/main": {
+        "name": "refs/heads/main",
+        "oid": "6fe8f3d9bddb6ee0a5a9314524f128fe02820122",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/1/head": {
+        "name": "refs/pull/1/head",
+        "oid": "a7277900b2ad85abea46d52409527cf49427b5ee",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/10/head": {
+        "name": "refs/pull/10/head",
+        "oid": "e4ae1b12635ea16f0bdb9454b4f29c7164c29143",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/11/head": {
+        "name": "refs/pull/11/head",
+        "oid": "156bb8e8e326bd2e72716efe477476c59dda79bb",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/12/head": {
+        "name": "refs/pull/12/head",
+        "oid": "ce0570164ce3c82581ad494b38b7f57d449bc4c3",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/13/head": {
+        "name": "refs/pull/13/head",
+        "oid": "a1e0dae2aa4aa2c81a154a4fda8b09210e2ffbaf",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/14/head": {
+        "name": "refs/pull/14/head",
+        "oid": "87062f16641ed25df72de208c43b2721c5c94986",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/15/head": {
+        "name": "refs/pull/15/head",
+        "oid": "22b2fe46f8bb36d3cda6861ca8711a08a3e455e9",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/16/head": {
+        "name": "refs/pull/16/head",
+        "oid": "c94a35aa6191a2ad66b8716b00a61cd3e7d0d61a",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/17/head": {
+        "name": "refs/pull/17/head",
+        "oid": "3d8a730254667c4f7348313a0aead97956edb568",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/2/head": {
+        "name": "refs/pull/2/head",
+        "oid": "62de6a8e4a30ef7b911c1472590541864abfc4be",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/3/head": {
+        "name": "refs/pull/3/head",
+        "oid": "a032fa1808eb46419b22141d46b5cb33b2e9a0e4",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/4/head": {
+        "name": "refs/pull/4/head",
+        "oid": "58d50de69b3abfe169ae3fe2769320954755355e",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/5/head": {
+        "name": "refs/pull/5/head",
+        "oid": "00fa617f14c4d477165e93b0d58507d5fb7b6287",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/6/head": {
+        "name": "refs/pull/6/head",
+        "oid": "933479135a19a213c31d9540d48ab482da13589c",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/7/head": {
+        "name": "refs/pull/7/head",
+        "oid": "c440f5714c277725794e32e7dcfab4f65a8f0770",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/8/head": {
+        "name": "refs/pull/8/head",
+        "oid": "5d35543cc142c4757ad98b3c614fe8a34f5c6667",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/pull/9/head": {
+        "name": "refs/pull/9/head",
+        "oid": "26126df83958590bbd7227f580f36327a0d85176",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/tags/dl-fbi": {
+        "name": "refs/tags/dl-fbi",
+        "oid": "33ff01bc68dac06eb7d9ca615702d8f8f6859b34",
+        "local": null,
+        "symrefTarget": null
+      },
+      "refs/tags/dl-fbi^{}": {
+        "name": "refs/tags/dl-fbi^{}",
+        "oid": "b0ed709ac88d1e76d038a733036b55bd333a9399",
+        "local": null,
+        "symrefTarget": null
+      }
+    }
+  },
+  "expandedSections": []
+}
