@@ -11,6 +11,7 @@ endif
 
 call plug#begin()
 Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-obsession'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-vinegar'
@@ -34,6 +35,7 @@ Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'fisadev/vim-isort'
+Plug 'mhinz/vim-startify'
 " Colorschemes
 Plug 'vv9k/bogster'
 Plug 'pineapplegiant/spaceduck', { 'branch': 'main' }
@@ -144,7 +146,7 @@ set textwidth=120
 syntax enable
 set background=dark
 "color koehler
-colorscheme nord
+colorscheme starrynight
 set tabpagemax=30
 set backspace=indent,eol,start
 nnoremap <F3> :set invpaste paste?<CR>
@@ -358,6 +360,9 @@ autocmd BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "norm
 
 " tag list
 map <leader>t :TagbarToggle<CR>
+
+" terminal
+nmap <leader>T :below terminal<CR>
 
 " copy, cut and paste
 vmap <C-c> "+y

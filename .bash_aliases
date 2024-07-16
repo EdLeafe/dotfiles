@@ -36,6 +36,7 @@ alias killswp='find . -name "*.swp" -delete'
 alias dtree="ls -R | grep ':$' | sed -e 's/:$//' -e 's/[^-][^\/]*\//–/g' -e 's/^/ /' -e 's/-/|/'"
 alias ranger="$HOME/projects/ranger/ranger.py"
 alias f='vim "$(fzf --exact)"'
+alias rgl='rg -l'
 #alias ip='ip --color'
 #alias ipb='ip --color --brief'
 alias pr='poetry run'
